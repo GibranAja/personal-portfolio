@@ -8,12 +8,12 @@
 const projects = [
     {
         id: 1,
-        nama: "Aplikasi Kasir Sederhana",
-        deskripsi: "Aplikasi berbasis web untuk mengelola transaksi penjualan dengan fitur pencatatan stok dan laporan penjualan harian.",
-        teknologi: ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
+        nama: "Website E-Commerce Difia",
+        deskripsi: "Aplikasi e-commerce untuk menjual produk tas UMKM dengan fitur keranjang belanja dan pembayaran online yang mudah dipahami pengguna.",
+        teknologi: ["Vue JS", "Firebase"],
         kategori: "web",
         gambar: "./assets/1.png",
-        link: "#"
+        link: "difia.kuadratdev.com"
     },
     {
         id: 2,
@@ -148,7 +148,7 @@ function loadProjects(filter = 'all') {
                 <div class="mb-3 flex flex-wrap">
                     ${teknologiHTML}
                 </div>
-                <a href="${project.link}" class="inline-block bg-primary hover:bg-primary-dark text-neutral-light px-4 py-2 text-sm font-medium transition-colors duration-300">
+                <a href="${project.link}" target="_blank" rel="noopener noreferrer" class="inline-block bg-primary hover:bg-primary-dark text-neutral-light px-4 py-2 text-sm font-medium transition-colors duration-300">
                     LIHAT DETAIL
                 </a>
             </div>
@@ -181,7 +181,7 @@ function loadCertificates() {
                 <h3 class="font-display font-bold text-lg mb-1">${certificate.nama}</h3>
                 <p class="text-sm text-gray-600 dark:text-gray-400">${certificate.penerbit} | ${certificate.tahun}</p>
                 <p class="text-sm mt-2">${certificate.deskripsi}</p>
-                <a href="#" class="inline-block mt-2 text-primary hover:text-primary-dark font-medium text-sm transition-colors duration-300">
+                <a href="#" target="_blank" rel="noopener noreferrer" class="inline-block mt-2 text-primary hover:text-primary-dark font-medium text-sm transition-colors duration-300">
                     LIHAT SERTIFIKAT
                 </a>
             </div>

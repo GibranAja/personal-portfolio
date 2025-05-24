@@ -70,13 +70,31 @@ const projects = [
         link: "github.com/GibranAja/fluttermovi",
     },
     {
-        id: 7,
+        id: 8,
         nama: "POKEDEX",
         deskripsi: "Website Pokedex adalah aplikasi web yang memungkinkan pengguna untuk mencari informasi tentang Pokemon. Aplikasi ini menggunakan API PokeAPI untuk mendapatkan data Pokemon.",
         teknologi: ["Vue JS", "Vuetify", "Axios"],
         kategori: "web",
         gambar: "./assets/pokemon.png",
         link: "pokedex-iban.vercel.app",
+    },
+    {
+        id: 9,
+        nama: "RESTful API News Portal",
+        deskripsi: "API backend untuk sistem portal berita dengan fitur authentication, CRUD artikel, dan Kategori Berita. API ini menggunakan JWT untuk keamanan dan MySQL sebagai database.",
+        teknologi: ["Laravel", "MySQL", "JWT"],
+        kategori: "api",
+        gambar: "./assets/api.png",
+        link: "https://news-api.pplgsmkn1ciomas.my.id/"
+    },
+    {
+        id: 10,
+        nama: "RESTful Api Order",
+        deskripsi: "API backend untuk sistem order restoran dengan fitur authentication, CRUD product, CRUD Order dan Kelola Pengguna. API ini menggunakan MySQL sebagai database.",
+        teknologi: ["Laravel", "MySQL"],
+        kategori: "api",
+        gambar: "./assets/api.png",
+        link: "https://github.com/GibranAja/laravue"
     }
 ];
 
